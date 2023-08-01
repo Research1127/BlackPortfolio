@@ -1,0 +1,10 @@
+LInk Turorial:
+https://www.youtube.com/watch?v=0YFrGy_mzjY&t=4025s
+
+IN visual studio
+- Install live server: This is for open with live server in right click button mouse for index.html
+
+IN google
+- Create icon in fontawesome.com
+- Need to add the script tag for fontawesome script in header tag to use it
+- Then we can find the icon and copy the script also to put in the suitable div tags that we want to display it

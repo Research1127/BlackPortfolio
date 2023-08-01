@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+    <title>Portfolio Firdaus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5928338fa4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Hexagon2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data & Research Analyst</p>
+            <h1>Hi, I'm <span>Firdaus</span><br>From Petaling Jaya</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ------------about---------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/data.png" alt="user image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello, I am a Data Analyst that have many experience handling projects. I capable in handling big data, cleaning data,
+                    data mining, visualize data and do some front-end and back-end tasks
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        <li><span>DATA ANALYST</span><br>Handling and Processing Data</li>
+                        <li><span>DASHBOARD DESIGNER</span><br>Creating Interactive Dashboard</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>RESEARCH ANALYST</span><br>Designing Web Interfaces</li>
+                        <li><span>DATA ANALYST PROTEGEE</span><br>Handling and Processing Data</li>
+                        <li><span>RESEARCH INTERNSHIP</span><br>Creating Model Machine Learning</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BACHELOR OF SCIENCE MATHEMATICS</span><br>Designing Web Interfaces</li>
+                        <li><span>MATRICULATION</span><br>Handling and Processing Data</li>
+                        <li><span>HIGHER Education</span><br>Creating Model Machine Learning</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<!-- ------------------------------services------------------------------- -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    I can create all the website you need for project that you want to create.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Analyzing Data</h2>
+                <p>
+                    I can analyzing, pre-processing and clean the data so that it become useful information for business need.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Data Visualization</h2>
+                <p>
+                    I can create all the graph that you need and put it all together in a dashboard for project that you want to create.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- ------------------------------------------portfolio------------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-2.png">
+                
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>The website show you how to interact and make the hiring team to see your own portfolio</p>
+                    <a href="http://daus1127.pythonanywhere.com/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Analyze Data</h3>
+                    <p>The dashboard will show you all the graph needed in the projects</p>
+                    <a href="https://github.com/Research1127/PurchaseHistory"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Dashboard Design</h3>
+                    <p>The model will train to predict the trend in the future for avoid unnecessary event occur</p>
+                    <a href="https://github.com/Research1127/dashboard_design/blob/main/dashboard.png"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ----------------------------------------------contact-------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>firdauslahmuddin@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0179527564</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>                  
+                </div>
+
+                <a href="images/my-cv.pdf"download class="btn btn2">Download CV</a>
+
+                
+            
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Firdaus. Made with <i class="fa-sharp fa-solid fa-heart"></i> by Data Analyst</p>
+    </div>
+</div>
+
+<!-- ---------------------------------javascript for about me tab---------------------------- -->
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+    
+
+</script>
+
+<!-- ----------------------------------------------javascript for sidebar-------------------------------------- -->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+     
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+
+     function closemenu(){
+        sidemenu.style.right = "-200px"
+     }
+</script>
+
+</body>
+</html>
